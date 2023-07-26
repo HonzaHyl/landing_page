@@ -37,3 +37,42 @@ a {
     justify-content:space-around;
     padding: 10px 0;
 }
+
+/* ---------------Info section--------------- */
+.info-container {
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    gap: 100px;
+    padding: 60px 0;
+    
+}
+
+.info-container .title,p {
+    color: white;
+} 
+
+.info-container p {
+    font-weight: 200;
+    width: 350px;
+}
+
+.info-container .title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.info-container img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.info-container button {
+    padding: 4px 10px;
+    font-weight: 600;
+    color: white;
+    background-color:darkgoldenrod;
+    border: none;
+    border-radius: 3px;
+}
