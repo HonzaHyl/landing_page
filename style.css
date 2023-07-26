@@ -116,3 +116,30 @@ a {
     text-align: center;
     font-weight: 400;
 }
+
+/* ---------------Quote section--------------- */
+
+.quote-background {
+    background-color: rgb(211, 197, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    padding: 40px 0;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.quote-container .author {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
