@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Yellowtail&display=swap');
 
 * {
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     line-height: 1.5;
 }
 
@@ -53,13 +53,14 @@ a {
     
 }
 
-.info-container .title,p {
+.info-container .title {
     color: white;
 } 
 
 .info-container p {
     font-weight: 200;
     width: 350px;
+    color: white;
 }
 
 .info-container .title {
@@ -120,7 +121,7 @@ a {
 /* ---------------Quote section--------------- */
 
 .quote-background {
-    background-color: rgb(211, 197, 156);
+    background-color: rgba(184, 134, 11, 0.75);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,4 +143,54 @@ a {
     font-weight: 600;
     font-size: 20px;
     
+}
+.quote-container .author,.quote {
+    color: white;
+}
+
+/* ---------------PopUp section--------------- */
+
+.popup-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.popup-container {
+    background-color: darkgoldenrod;
+    padding: 40px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.popup-container .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-container p {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.popup-container .title {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.popup-container button {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 3px 30px;
+    border-radius: 4px;
+    border: solid white 2px;
+    font-weight: 500;
 }
